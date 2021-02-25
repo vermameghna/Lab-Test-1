@@ -5,6 +5,7 @@ public class MerchandiseItem {
 	private Double unitPrice;
 	
 	public MerchandiseItem() {}
+	
 
 	public MerchandiseItem(String itemCode, int quantity, Double unitPrice) {
 		this.itemCode = itemCode;
