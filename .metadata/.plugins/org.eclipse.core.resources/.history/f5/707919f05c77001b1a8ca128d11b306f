@@ -1,0 +1,8 @@
+package com.bankapp.repository;
+
+public class Owner {
+	private String name;
+	private Date date;
+	private String nic;
+	
+}

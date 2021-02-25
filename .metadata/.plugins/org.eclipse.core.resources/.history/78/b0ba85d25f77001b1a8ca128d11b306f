@@ -1,0 +1,7 @@
+package com.bankapp.repository;
+
+public class CurrentAccount extends Account{
+	private float minimumBalance;
+
+	public CurrentAccount() {}
+}

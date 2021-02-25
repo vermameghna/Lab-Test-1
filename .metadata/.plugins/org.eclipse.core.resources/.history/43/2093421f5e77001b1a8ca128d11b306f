@@ -1,0 +1,54 @@
+package com.bankapp.repository;
+
+public class Owner {
+	private String name;
+	private Date date;
+	private String nic;
+	
+	
+	public Owner() {}
+
+
+	public Owner(String name, String nic,Date date) {
+		this.name = name;
+		this.date = date;
+		this.nic = nic;
+	}
+	
+	public Owner(Owner tempOwner) {
+		this.name = tempOwner.getName();
+		this.date = tempOwner.getDate();
+		this.nic = tempOwner.getNic();
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public Date getDate() {
+		return date;
+	}
+
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+
+	public String getNic() {
+		return nic;
+	}
+
+
+	public void setNic(String nic) {
+		this.nic = nic;
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com.bankapp.repository;
+
+public abstract class Account {
+	private Owner owner;
+	private String number;
+	private float balance;
+	
+	
+	public Account() {}
+	
+	
+}

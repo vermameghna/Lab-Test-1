@@ -1,0 +1,6 @@
+package com.bankapp.repository;
+
+public class SavingAccount extends Account{
+	private float interestRate;
+	
+}

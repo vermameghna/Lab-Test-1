@@ -1,0 +1,19 @@
+package com.bankapp.controller;
+
+import com.bankapp.repository.Account;
+import com.bankapp.repository.Date;
+import com.bankapp.repository.Owner;
+import com.bankapp.repository.SavingAccount;
+
+public class AccountTester {
+	public static void main(String[] args) {
+		
+		Date date = new Date(25,02,2021);
+		Owner owner = new Owner("Meghna", "3422", date);
+		
+		Account account = new SavingAccount();
+		account.setBalance(10000);
+		account.setNumber("2453456764");
+		account.setOwner(owner);
+	}
+}

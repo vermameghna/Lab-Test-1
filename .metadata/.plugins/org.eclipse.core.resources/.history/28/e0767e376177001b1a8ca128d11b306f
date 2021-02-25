@@ -1,0 +1,14 @@
+package com.bankapp.repository;
+
+public class CurrentAccount extends Account{
+	private float minimumBalance;
+
+	public CurrentAccount() {}
+	
+	public CurrentAccount(CurrentAccount currentAccount) {
+		this.minimumBalance = currentAccount.minimumBalance;
+	}
+	
+	
+	
+}

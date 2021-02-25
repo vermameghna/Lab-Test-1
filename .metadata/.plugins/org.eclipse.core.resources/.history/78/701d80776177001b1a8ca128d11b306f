@@ -1,0 +1,37 @@
+package com.bankapp.repository;
+
+public class SavingAccount extends Account{
+	private float interestRate;
+
+	public SavingAccount() {
+	}
+
+	public SavingAccount(SavingAccount tempAccount) {
+		super(tempAccount);
+		this.interestRate = tempAccount.interestRate;
+	}
+	
+	
+
+	public float getInterest() {
+		return interestRate*(this.getBalance());
+	}
+
+	public void setInterestRate(float interestRate) {
+		this.interestRate = interestRate;
+	}
+	
+	public void print() {
+		System.out.println("Saving Account details are:-----------");
+		System.out.println(super.toString());
+		System.out.println(this.toString());
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "SavingAccount [interestRate=" + interestRate + "]";
+	}
+	
+}

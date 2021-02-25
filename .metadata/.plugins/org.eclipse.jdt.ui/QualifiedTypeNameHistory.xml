@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.bankapp.repository.Account"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.bankapp.repository.Date"/>
+<fullyQualifiedTypeName name="com.bankapp.repository.Owner"/>
+<fullyQualifiedTypeName name="com.bankapp.repository.SavingAccount"/>
+<fullyQualifiedTypeName name="com.bankapp.repository.CurrentAccount"/>
+</qualifiedTypeNameHistroy>

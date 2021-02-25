@@ -1,0 +1,26 @@
+
+public class fileHandling {
+	public static void main(String[] args) {
+		Set<String>words=new TreeSet<>();
+		
+		String line=null;
+		try (BufferedReader br = new BufferedReader(new FileReader(new File("C:\\Users\\ve00ym241\\Desktop\\Training\\YamahaJava2\\filehandling\\src\\demo.txt")))){
+			while((line=br.readLine())!=null) {
+				//i need to read all words of files
+				String []tokens=line.split(" ");
+				for(String token : tokens) {
+					words.add(token.toLowerCase());
+				}
+			}
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+
+		//print the set
+		for(String word:words ) {
+			System.out.println(word);
+		}
+}

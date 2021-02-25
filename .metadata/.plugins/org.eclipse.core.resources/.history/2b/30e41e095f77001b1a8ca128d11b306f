@@ -1,0 +1,15 @@
+package com.bankapp.repository;
+
+public class SavingAccount extends Account{
+	private float interestRate;
+
+	public SavingAccount() {
+	}
+
+	public SavingAccount(SavingAccount tempAccount) {
+		super(tempAccount);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

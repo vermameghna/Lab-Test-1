@@ -1,0 +1,11 @@
+package com.bankapp.controller;
+
+import com.bankapp.repository.Account;
+import com.bankapp.repository.SavingAccount;
+
+public class AccountTester {
+	public static void main(String[] args) {
+		Account account = new SavingAccount();
+		
+	}
+}
