@@ -1,12 +1,12 @@
 
-public class MerchandizeItem {
+public class MerchandiseItem {
 	private String itemCode;
 	private int quantity;
 	private Double unitPrice;
 	
-	public MerchandizeItem() {}
+	public MerchandiseItem() {}
 
-	public MerchandizeItem(String itemCode, int quantity, Double unitPrice) {
+	public MerchandiseItem(String itemCode, int quantity, Double unitPrice) {
 		this.itemCode = itemCode;
 		this.quantity = quantity;
 		this.unitPrice = unitPrice;
@@ -38,7 +38,7 @@ public class MerchandizeItem {
 
 	@Override
 	public String toString() {
-		return "MerchandizeItem [itemCode=" + itemCode + ", quantity=" + quantity + ", unitPrice=" + unitPrice + "]";
+		return "MerchandiseItem [itemCode=" + itemCode + ", quantity=" + quantity + ", unitPrice=" + unitPrice + "]";
 	}
 	
 	
