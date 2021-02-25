@@ -12,7 +12,7 @@ public class fileHandling {
 		String code;
 		int quantity;
 		Double unitPrice;
-		List<MerchandizeItem> merchandises = new ArrayList<>();
+		List<MerchandiseItem> merchandises = new ArrayList<>();
 
 		String line = null;
 		
@@ -24,7 +24,7 @@ public class fileHandling {
 				code = tokens[0];
 				quantity = Integer.parseInt(tokens[1]);
 				unitPrice = Double.parseDouble(tokens[2]);
-				merchandises.add(new MerchandizeItem(code, quantity, unitPrice));
+				merchandises.add(new MerchandiseItem(code, quantity, unitPrice));
 			}
 
 		} catch (FileNotFoundException ex) {
